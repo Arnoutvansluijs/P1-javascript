@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="title">Ik ben een titel met tekst</h1>
+    <button onclick="kleur_aanpassen()">Click me!</button>
+    
+    <script>function kleur_aanpassen(){
+
+
+       let title = "title";
+       let element = document.getElementById(title);
+       
+        document.getElementById(title).style.color = "red";
+        document.getElementById(title).style.fontWeight = "normal";
+        element.innerText = "van schaik is de beste";
+        
+
+        }
+
+        
+
+        
+
+    
+    </script>
+
+    </body>
+</html>
